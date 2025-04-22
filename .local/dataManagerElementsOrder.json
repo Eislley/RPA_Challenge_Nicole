@@ -1,0 +1,64 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "URL&"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "URL&5761b168-7d81-45be-a663-dc69acf36928",
+        "URL&f524c9d2-1ece-4bed-9306-09a33e65a84a",
+        "sheetName&Sequence_1",
+        "fileName&Sequence_1",
+        "Index&Sequence_1",
+        "dt_InputData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Processes/Excel/ReadInputData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "URL&9c94dc28-56ed-4452-8142-eb088605ec24",
+        "Sheet1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_sheetName",
+        "in_filePath",
+        "out_dt_InputData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Processes/Challenge/RPAChallenge.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "URL&9c94dc28-56ed-4452-8142-eb088605ec24"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Index",
+        "in_Timeout",
+        "in_PhoneNumber",
+        "in_Email",
+        "in_Address",
+        "in_RoleInCompany",
+        "in_CompanyName",
+        "in_LastName",
+        "in_FirstName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
